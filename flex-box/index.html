@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 10%;
+            margin: 5px;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(0, 0, 0, 0.913);
+            color: white;
+        }
+        #section1 {
+            display: flex;
+            justify-content: right;
+            flex-wrap: wrap; 
+        }
+        #box1 {
+            display: flex;
+            flex: 2;
+            padding: 15px;
+        }
+        #box2 {
+            flex: 1; 
+            padding: 15px; 
+        }
+        #box3 {
+            width: 100%; 
+            padding: 20px; 
+            box-sizing: border-box; 
+        }
+        #section2 {
+            display: flex;
+            width: 100%;
+            padding: 0; 
+            box-sizing: border-box; 
+        }
+        #box4 {
+            flex: 2;
+            padding: 20px;
+        }
+        #box5 {
+            flex: 1;
+            padding: 20px; 
+        }
+        h3 {
+            display: block;
+            color: steelblue;
+            border-radius: 3px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="section1">
+            <div id="box1">
+                <img src="profileImage.png" alt="">
+                <h3>Brahim Elkhalil </h3>
+            </div>
+            <div id="box2">
+                <p>Address: 100 Main St, Boston, MA</p>
+                <p>Phone: +1 555-555-5555</p>
+                <p>Email: example@gmail.com</p>
+            </div>
+            <div id="box3">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate adipisci quia eveniet ipsam nobis, odit veritatis nulla hic sunt sint illo aut dolores voluptate expedita ipsa quam sequi! Magnam quasi est illum numquam, repudiandae perferendis voluptas tenetur corrupti amet dolor reprehenderit consequatur eaque beatae quibusdam impedit a possimus? Ex, tempore.</p>
+            </div>
+        </div>
+        <div id="section2">
+            <div id="box4">
+                <h3>PROFESSIONAL EXPERIENCE</h3>
+                <h5>Experience1</h5>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, quo!</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, quo!</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, quo!</li>    
+                </ul>
+                <h5>Experience2</h5>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, quo!</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, quo!</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, quo!</li>    
+                </ul>
+                <h5>Experience3</h5>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, quo!</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, quo!</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, quo!</li>    
+                </ul>                
+                <h3>EDUCATION</h3>
+                <h5>School Example</h5>
+                    <ul><li>Lorem, ipsum dolor sit amet consectetur adipisicing.</li></ul>
+                    <ul><li>Lorem, ipsum dolor sit amet consectetur adipisicing.</li></ul>
+                <h5>Education2</h5>
+                <ul><li>Lorem, ipsum dolor sit amet consectetur adipisicing.</li></ul>
+                <ul><li>Lorem, ipsum dolor sit amet consectetur adipisicing.</li></ul>
+            </div>
+            <div id="box5">
+                <h3>SKILLS</h3>
+                <p>JavaScript</p>
+                <p>HTML-CSS</p>
+                <p>React</p>
+                <p>NodeJS</p>
+                <h3>Certications</h3>
+                <p>CCNA</p>
+                <p>RHCSA</p>
+            </div>
+        </div>  
+    </div>
+</body>
+</html>

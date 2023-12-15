@@ -1,0 +1,92 @@
+
+
+body {
+    font-family: roboto;
+    margin: 15px;
+}
+#navbar li {
+    display: inline;
+    margin: 25px;
+    padding: 10px;
+    font-weight: bold;
+}
+#navbar a {
+    text-decoration: none;
+    color: steelblue;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+#container {
+    display: flex;
+    height: 70vh;
+    width: 85%;
+    margin: auto;
+}
+#about {
+    width: 70%;
+    margin: 50px;
+    padding: 10px;
+}
+#about li {
+    color: steelblue;
+    list-style: none;
+    font-weight: bold;
+}
+
+#image {
+    background-image: url('./../images/profilepic2.jpg');
+    width: 50vw;
+    height: 100%;
+    background-size: cover;
+    background-position: right;
+}
+
+#box1 {
+    width: 50%;
+    margin: 50px;
+    padding: 10px;
+    text-align: center;
+}
+#box2 {
+    width: 50%;
+    margin: 50px;
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+
+}
+footer a {
+    margin: 1px;
+    padding: 5px;
+    transition: color;
+}
+
+#navbar a:hover, footer a:hover {
+    color: darkblue; /* Changes text color on hover */
+    background-color: lightblue;
+}
+
+
+/* Smartphones and tablets */
+@media only screen and (max-width: 900px) {
+    #navbar li {
+        margin: 10px;
+    }
+    #about {
+        margin: 10px;
+        padding: 10px;
+    }
+    #container {
+        flex-direction: column;
+        height: 80vh;
+    }
+    #image {
+        width: 100%;
+        height: 100%;
+        background-size: cover; /* changes from 'cover' to 'contain' */
+        background-repeat: no-repeat;
+    }
+}

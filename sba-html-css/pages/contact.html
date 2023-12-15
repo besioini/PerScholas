@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <title>Contact</title>
+    <style>
+        body {
+            font-family: roboto;
+            margin: 15px;
+        }
+        #navbar li {
+            display: inline;
+            margin: 25px;
+            padding: 10px;
+            font-weight: bold;
+        }
+        #navbar a {
+            text-decoration: none;
+            color: steelblue;
+            transition: color 0.3s ease, background-color 0.3s ease;
+        }
+        #navbar a:hover {
+            background-color: #add8e6;
+        }
+        h3 {
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+        footer a {
+            margin: 1px;
+            padding: 5px;
+        }
+        #navbar a:hover, footer a:hover {
+            color: darkblue; /* Changes text color on hover */
+            background-color: lightblue;
+        }
+        @media only screen and (max-width: 1024px) {
+            #navbar li {
+                margin: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul id="navbar">
+            <li><a href="home.html">BES</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h3>Here is how you can reach me out</h3>
+        <form >
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="name" class="form-control" id="name" >
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <div class="mb-3">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="subject" class="form-control" id="subject">
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+            <div style="display: flex; justify-content: center;">
+                <button type="submit" class="btn btn-primary" style="background-color: steelblue;">Submit</button>
+            </div>
+
+        </form>   
+    </div>
+
+    <footer>
+        <p>Copyright &copy; 2023</p>
+        <a href="#">
+            <i class="fa-brands fa-facebook" style="color: #3b5998"></i>
+        </a>
+        <a href="#" style="color: #333">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="#" style="color: #0077b5">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+    </footer>
+</body>
+</html>

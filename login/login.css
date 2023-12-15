@@ -1,0 +1,28 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container {
+    border-radius: 5px;
+    margin: auto;
+    width: fit-content; 
+    padding: 25px; 
+    box-shadow: -2px 2.5px lightgray, 1px -1px lightgray;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+}
+
+input {
+    text-align: center;
+    display: block;
+    margin: 15px;
+    padding: 2px;
+}
+
+a {
+    text-decoration: none;
+    color: lightorange;
+}

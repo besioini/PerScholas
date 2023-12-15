@@ -1,0 +1,17 @@
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+th, td {
+    border: 1px solid red;
+}
+td:hover {
+    background-color: lightcoral;
+    color: white;
+}
+
+li {
+    display: inline;
+}
